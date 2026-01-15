@@ -33,8 +33,12 @@ venv\Scripts\activate      # Windows
 
 Install dependencies
 pip install -r requirements.txt
+
 pip install flask numpy pandas torch torchvision opencv-python
+
 python flaskapp.py
+
 python mAlexnet.py --train --data data/
+
 python maskrcnn_car.py --image input.jpg
 
