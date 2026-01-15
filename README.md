@@ -25,8 +25,6 @@ Make sure you have Python 3.8+ installed.
 pip install -r requirements.txt 
 
 Clone the repository
-git clone https://github.com/jatin-4221/smart-car-parking.git
-cd smart-car-parking
 
 Create & activate virtual environment (optional)
 python3 -m venv venv
