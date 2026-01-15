@@ -22,24 +22,21 @@ Installation
 Make sure you have Python 3.8+ installed.
 
 # Install dependencies
-pip install -r requirements.txt
-# Clone the repository
+pip install -r requirements.txt 
+
+Clone the repository
 git clone https://github.com/jatin-4221/smart-car-parking.git
 cd smart-car-parking
 
-# Create & activate virtual environment (optional)
+Create & activate virtual environment (optional)
 python3 -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 pip install flask numpy pandas torch torchvision opencv-python
 python flaskapp.py
-
-# Example: Run model training
 python mAlexnet.py --train --data data/
-
-# Example: Detect cars using Mask R-CNN
 python maskrcnn_car.py --image input.jpg
 
