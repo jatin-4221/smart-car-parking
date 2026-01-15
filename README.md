@@ -3,7 +3,7 @@ Smart Car Parking
 A Smart Car Parking System implemented using Python with machine learning and a Flask web interface.
 This project detects vehicles and provides backend support for a smart parking solution.
 
-Project Overview
+# Project Overview
 
 Smart Car Parking aims to automate vehicle detection and provide insights for parking management — useful in real-world applications like monitoring space occupancy, guiding drivers, and optimizing parking usage.
 
@@ -34,3 +34,12 @@ venv\Scripts\activate      # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+pip install flask numpy pandas torch torchvision opencv-python
+python flaskapp.py
+
+# Example: Run model training
+python mAlexnet.py --train --data data/
+
+# Example: Detect cars using Mask R-CNN
+python maskrcnn_car.py --image input.jpg
+
